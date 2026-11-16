@@ -1,0 +1,903 @@
+{
+  "columns": [
+    {
+      "table_name": "battle_garage",
+      "column_name": "garage_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "battle_garage",
+      "column_name": "garage_name",
+      "data_type": "character varying",
+      "character_maximum_length": 80,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "battle_garage",
+      "column_name": "grid_address",
+      "data_type": "character varying",
+      "character_maximum_length": 160,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "battle_garage",
+      "column_name": "dispatch_phone",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "client_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "client",
+      "column_name": "first_name",
+      "data_type": "character varying",
+      "character_maximum_length": 60,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "last_name",
+      "data_type": "character varying",
+      "character_maximum_length": 60,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "corporate_address",
+      "data_type": "character varying",
+      "character_maximum_length": 200,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "phone",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "email",
+      "data_type": "character varying",
+      "character_maximum_length": 160,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "license_token",
+      "data_type": "character varying",
+      "character_maximum_length": 100,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "client",
+      "column_name": "license_expiration",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "serial_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "client_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "mech_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "departure_garage_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "return_garage_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "scheduled_start",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "scheduled_end",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "actual_start",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "actual_return",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "agreed_daily_rate",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 12,
+      "numeric_scale": 2,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "column_name": "status",
+      "data_type": "character varying",
+      "character_maximum_length": 20,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": "'Match Booked'::character varying",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "log_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "reported_at",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": "clock_timestamp()",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "mech_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "reporting_client_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "issue_type",
+      "data_type": "character varying",
+      "character_maximum_length": 10,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "description",
+      "data_type": "text",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "status",
+      "data_type": "character varying",
+      "character_maximum_length": 20,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": "'Reported'::character varying",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "scheduled_start",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "scheduled_end",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "resolved_at",
+      "data_type": "timestamp with time zone",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "chief_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "maintenance_log",
+      "column_name": "engineering_notes",
+      "data_type": "text",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": "''::text",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "manifest_charge",
+      "column_name": "serial_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "manifest_charge",
+      "column_name": "estimated_cost",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 14,
+      "numeric_scale": 2,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "manifest_charge",
+      "column_name": "actual_cost",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 14,
+      "numeric_scale": 2,
+      "is_nullable": "YES",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "mech_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "chassis_serial",
+      "data_type": "character varying",
+      "character_maximum_length": 50,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "manufacturer",
+      "data_type": "character varying",
+      "character_maximum_length": 80,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "model",
+      "data_type": "character varying",
+      "character_maximum_length": 80,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "assembly_year",
+      "data_type": "smallint",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "armor_color",
+      "data_type": "character varying",
+      "character_maximum_length": 40,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "daily_rate",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 12,
+      "numeric_scale": 2,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "combat_hours",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 6,
+      "is_nullable": "NO",
+      "column_default": "0",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "type_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "garage_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech",
+      "column_name": "operational_status",
+      "data_type": "character varying",
+      "character_maximum_length": 20,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": "'Available'::character varying",
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "mech_type",
+      "column_name": "type_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "mech_type",
+      "column_name": "type_name",
+      "data_type": "character varying",
+      "character_maximum_length": 50,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "column_name": "staff_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "YES"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "column_name": "garage_id",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "column_name": "full_name",
+      "data_type": "character varying",
+      "character_maximum_length": 100,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "column_name": "phone",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "column_name": "corporate_email",
+      "data_type": "character varying",
+      "character_maximum_length": 160,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO",
+      "column_default": null,
+      "is_identity": "NO"
+    }
+  ],
+  "keys": [
+    {
+      "table_name": "mech_type",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "type_id",
+      "constraint_name": "mech_type_pkey"
+    },
+    {
+      "table_name": "mech_type",
+      "constraint_type": "UNIQUE",
+      "column_name": "type_name",
+      "constraint_name": "mech_type_type_name_key"
+    },
+    {
+      "table_name": "battle_garage",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "garage_id",
+      "constraint_name": "battle_garage_pkey"
+    },
+    {
+      "table_name": "client",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "client_id",
+      "constraint_name": "client_pkey"
+    },
+    {
+      "table_name": "client",
+      "constraint_type": "UNIQUE",
+      "column_name": "license_token",
+      "constraint_name": "client_license_token_key"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "staff_id",
+      "constraint_name": "pit_crew_technician_pkey"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "constraint_type": "UNIQUE",
+      "column_name": "corporate_email",
+      "constraint_name": "pit_crew_technician_corporate_email_key"
+    },
+    {
+      "table_name": "pit_crew_technician",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "garage_id",
+      "constraint_name": "pit_crew_technician_garage_id_fkey"
+    },
+    {
+      "table_name": "mech",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "mech_id",
+      "constraint_name": "mech_pkey"
+    },
+    {
+      "table_name": "mech",
+      "constraint_type": "UNIQUE",
+      "column_name": "chassis_serial",
+      "constraint_name": "mech_chassis_serial_key"
+    },
+    {
+      "table_name": "mech",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "type_id",
+      "constraint_name": "mech_type_id_fkey"
+    },
+    {
+      "table_name": "mech",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "garage_id",
+      "constraint_name": "mech_garage_id_fkey"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "serial_id",
+      "constraint_name": "deployment_manifest_pkey"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "client_id",
+      "constraint_name": "deployment_manifest_client_id_fkey"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "mech_id",
+      "constraint_name": "deployment_manifest_mech_id_fkey"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "departure_garage_id",
+      "constraint_name": "deployment_manifest_departure_garage_id_fkey"
+    },
+    {
+      "table_name": "deployment_manifest",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "return_garage_id",
+      "constraint_name": "deployment_manifest_return_garage_id_fkey"
+    },
+    {
+      "table_name": "manifest_charge",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "serial_id",
+      "constraint_name": "manifest_charge_pkey"
+    },
+    {
+      "table_name": "manifest_charge",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "serial_id",
+      "constraint_name": "manifest_charge_serial_id_fkey"
+    },
+    {
+      "table_name": "maintenance_log",
+      "constraint_type": "PRIMARY KEY",
+      "column_name": "log_id",
+      "constraint_name": "maintenance_log_pkey"
+    },
+    {
+      "table_name": "maintenance_log",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "mech_id",
+      "constraint_name": "maintenance_log_mech_id_fkey"
+    },
+    {
+      "table_name": "maintenance_log",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "reporting_client_id",
+      "constraint_name": "maintenance_log_reporting_client_id_fkey"
+    },
+    {
+      "table_name": "maintenance_log",
+      "constraint_type": "FOREIGN KEY",
+      "column_name": "chief_id",
+      "constraint_name": "maintenance_log_chief_id_fkey"
+    }
+  ],
+  "relationships": [
+    {
+      "child": "deployment_manifest",
+      "child_column": "departure_garage_id",
+      "parent": "battle_garage",
+      "parent_column": "garage_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "deployment_manifest",
+      "child_column": "return_garage_id",
+      "parent": "battle_garage",
+      "parent_column": "garage_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "mech",
+      "child_column": "garage_id",
+      "parent": "battle_garage",
+      "parent_column": "garage_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "pit_crew_technician",
+      "child_column": "garage_id",
+      "parent": "battle_garage",
+      "parent_column": "garage_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "deployment_manifest",
+      "child_column": "client_id",
+      "parent": "client",
+      "parent_column": "client_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "maintenance_log",
+      "child_column": "reporting_client_id",
+      "parent": "client",
+      "parent_column": "client_id",
+      "is_nullable": "YES",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "manifest_charge",
+      "child_column": "serial_id",
+      "parent": "deployment_manifest",
+      "parent_column": "serial_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "deployment_manifest",
+      "child_column": "mech_id",
+      "parent": "mech",
+      "parent_column": "mech_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "maintenance_log",
+      "child_column": "mech_id",
+      "parent": "mech",
+      "parent_column": "mech_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "mech",
+      "child_column": "type_id",
+      "parent": "mech_type",
+      "parent_column": "type_id",
+      "is_nullable": "NO",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    },
+    {
+      "child": "maintenance_log",
+      "child_column": "chief_id",
+      "parent": "pit_crew_technician",
+      "parent_column": "staff_id",
+      "is_nullable": "YES",
+      "update_rule": "CASCADE",
+      "delete_rule": "RESTRICT"
+    }
+  ],
+  "routines": [
+    {
+      "proname": "after_maintenance_change",
+      "prokind": "f"
+    },
+    {
+      "proname": "after_manifest_change",
+      "prokind": "f"
+    },
+    {
+      "proname": "book_manifest",
+      "prokind": "p"
+    },
+    {
+      "proname": "change_manifest",
+      "prokind": "p"
+    },
+    {
+      "proname": "emergency_asset_lock",
+      "prokind": "p"
+    },
+    {
+      "proname": "guard_maintenance",
+      "prokind": "f"
+    },
+    {
+      "proname": "guard_manifest",
+      "prokind": "f"
+    },
+    {
+      "proname": "report_incident",
+      "prokind": "p"
+    },
+    {
+      "proname": "sync_mech_status",
+      "prokind": "p"
+    },
+    {
+      "proname": "update_incident",
+      "prokind": "p"
+    }
+  ]
+}

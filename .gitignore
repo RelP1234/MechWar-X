@@ -1,0 +1,20 @@
+# Local database files and generated credentials must never be committed.
+data/
+**/data/
+local-credentials.json
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and portable binaries belong outside source control.
+node_modules/
+runtime/
+*.zip
+*.log
+
+# Test reports in docs/testing are the reviewed baseline.
+/test-results.json
+/browser-test-results.json
+/evidence/
+.DS_Store
+Thumbs.db

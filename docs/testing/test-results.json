@@ -1,0 +1,152 @@
+{
+  "executed_at": "2026-11-16T18:55:39.346Z",
+  "database": "PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit",
+  "total": 36,
+  "passed": 36,
+  "results": [
+    {
+      "test": "All eight physical tables created",
+      "status": "PASS"
+    },
+    {
+      "test": "Chassis serial uniqueness enforced",
+      "status": "PASS"
+    },
+    {
+      "test": "Nonpositive daily rate rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Nonpositive assembly year rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Blank mandatory model rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Invalid foreign key rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Audit parent deletion restricted",
+      "status": "PASS"
+    },
+    {
+      "test": "Valid booking and $200 estimated charge",
+      "status": "PASS"
+    },
+    {
+      "test": "Identical overlapping booking rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Partial overlap by another client rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Containing overlap rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Adjacent boundary accepted",
+      "status": "PASS"
+    },
+    {
+      "test": "Reversed window rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Past booking rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Expired pilot license rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "Cancellation automatically releases ordinary asset",
+      "status": "PASS"
+    },
+    {
+      "test": "Cancelled window can be booked again",
+      "status": "PASS"
+    },
+    {
+      "test": "Critical incident automatically locks asset",
+      "status": "PASS"
+    },
+    {
+      "test": "Critical lock blocks new booking",
+      "status": "PASS"
+    },
+    {
+      "test": "Cancelling a match cannot bypass critical lock",
+      "status": "PASS"
+    },
+    {
+      "test": "Repairing one of two incidents preserves lock",
+      "status": "PASS"
+    },
+    {
+      "test": "Repairing last incident restores availability",
+      "status": "PASS"
+    },
+    {
+      "test": "Repaired incident audit cannot be rewritten",
+      "status": "PASS"
+    },
+    {
+      "test": "Routine service prevents overlapping reservation",
+      "status": "PASS"
+    },
+    {
+      "test": "Routine service allows nonoverlapping reservation",
+      "status": "PASS"
+    },
+    {
+      "test": "Routine service cannot overlap a booked match",
+      "status": "PASS"
+    },
+    {
+      "test": "Routine service requires both timestamps",
+      "status": "PASS"
+    },
+    {
+      "test": "Starting a valid match sets Deployed",
+      "status": "PASS"
+    },
+    {
+      "test": "Active deployment blocks even distant new booking",
+      "status": "PASS"
+    },
+    {
+      "test": "Repair during active match returns to Deployed",
+      "status": "PASS"
+    },
+    {
+      "test": "Completion updates hours, final cost and return garage",
+      "status": "PASS"
+    },
+    {
+      "test": "Repeated completion cannot double-count hours",
+      "status": "PASS"
+    },
+    {
+      "test": "Concurrent overlapping requests: exactly one commits",
+      "status": "PASS"
+    },
+    {
+      "test": "Runtime role cannot bypass booking with direct INSERT",
+      "status": "PASS"
+    },
+    {
+      "test": "Runtime role cannot manually clear a repair lock",
+      "status": "PASS"
+    },
+    {
+      "test": "Client-filtered search excludes other clients",
+      "status": "PASS"
+    }
+  ]
+}

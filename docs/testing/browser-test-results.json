@@ -1,0 +1,96 @@
+{
+  "executed_at": "2026-11-16T18:55:53.330Z",
+  "total": 22,
+  "passed": 22,
+  "results": [
+    {
+      "test": "Register asset through Screen 1",
+      "status": "PASS"
+    },
+    {
+      "test": "Duplicate chassis shows readable rejection",
+      "status": "PASS"
+    },
+    {
+      "test": "New registration is selected by Book this mech",
+      "status": "PASS"
+    },
+    {
+      "test": "Changing mech defaults both garage fields to its location",
+      "status": "PASS"
+    },
+    {
+      "test": "Thirty-second shortcut fills a two-hour window and correct estimate",
+      "status": "PASS"
+    },
+    {
+      "test": "Date shortcuts do not save a reservation",
+      "status": "PASS"
+    },
+    {
+      "test": "Create reservation through Screen 3",
+      "status": "PASS"
+    },
+    {
+      "test": "Overlapping reservation rejected by the database",
+      "status": "PASS"
+    },
+    {
+      "test": "Dashboard counts down and prevents starting before the window",
+      "status": "PASS"
+    },
+    {
+      "test": "Client dashboard starts and completes the selected deployment",
+      "status": "PASS"
+    },
+    {
+      "test": "Editing Client ID clears the previous client records immediately",
+      "status": "PASS"
+    },
+    {
+      "test": "Failed client search leaves no stale results",
+      "status": "PASS"
+    },
+    {
+      "test": "A delayed search response cannot replace a newly selected client",
+      "status": "PASS"
+    },
+    {
+      "test": "Cancellation from Screen 2 persists Cancelled and restores readiness",
+      "status": "PASS"
+    },
+    {
+      "test": "Routine maintenance requires service dates; critical reporting does not",
+      "status": "PASS"
+    },
+    {
+      "test": "Critical incident immediately locks the mech in PostgreSQL",
+      "status": "PASS"
+    },
+    {
+      "test": "New incident automatically selects its repair form and assigned chief",
+      "status": "PASS"
+    },
+    {
+      "test": "Update repair loads saved incident notes, chief and status",
+      "status": "PASS"
+    },
+    {
+      "test": "Repair resolution retains history and disables the cleared form",
+      "status": "PASS"
+    },
+    {
+      "test": "All four screens fit a narrow viewport without page overflow",
+      "status": "PASS"
+    },
+    {
+      "test": "No browser JavaScript exceptions",
+      "status": "PASS"
+    },
+    {
+      "test": "Persisted combat hours, return-garage transfer and availability verified",
+      "status": "PASS"
+    }
+  ],
+  "demo_mech_id": 38
+}
